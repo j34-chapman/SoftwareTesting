@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ead552c6-7e94-43a2-9652-5c8ebdcb4097" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/STQA-Lab3B.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/out/production/STQA Lab 3B/Cyclinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/out/production/STQA Lab 3B/PasswordChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/out/test/STQA Lab 3B/CyclinderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/out/test/STQA Lab 3B/PasswordCheckerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/out/test/STQA Lab 3B/calculateVolume.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/out/test/STQA Lab 3B/resources/calculateVolume.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/src/Cyclinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/src/PasswordChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/test/CyclinderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/test/PasswordCheckerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA Lab 3B/test/resources/calculateVolume.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/STQA-Lab3A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/out/production/STQA-Lab3A/BMICalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/out/production/STQA-Lab3A/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/out/test/STQA-Lab3A/BMICalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/out/test/STQA-Lab3A/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/src/BMICalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/test/BMICalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 3/STQA-Lab3A/test/CalculatorTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YAjfDb9hSKtuXCMGKEQ9lOUq0L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jakechapman/Desktop/Final Year/STQA/Software-Testing-Practical-Learning-",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ead552c6-7e94-43a2-9652-5c8ebdcb4097" name="Changes" comment="" />
+      <created>1699975379009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699975379009</updated>
+      <workItem from="1699975382445" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
