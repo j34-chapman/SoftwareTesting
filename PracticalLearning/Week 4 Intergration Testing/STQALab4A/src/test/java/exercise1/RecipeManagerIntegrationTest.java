@@ -25,8 +25,16 @@ class RecipeManagerIntegrationTest {
         Recipe recipe1 = new Recipe("Pancakes", "flour, milk, eggs", "Mix ingredients and cook.");
 
         // act
+        //In this we are using the object
+        recipeManager.addRecipe(recipe1);
+        Recipe retrievedRecipe = recipeManager.getRecipe("Pancakes");
 
-        // assert
+
+        // Assert
+        assertNotNull(retrievedRecipe, "The retrieved recipe should not be null");
+        assertEquals("Pancakes", retrievedRecipe.getName(), "The retrieved recipe should have the correct name");
+        assertEquals("flour, milk, eggs", retrievedRecipe.getIngredients(), "The retrieved recipe should have the correct ingredients");
+        assertEquals("Mix ingredients and cook.", retrievedRecipe.getInstructions(), "The retrieved recipe should have the correct instructions");
     }
 
     // Exercise 1.2 - Test the retrieval of a recipe that doesn't exist
