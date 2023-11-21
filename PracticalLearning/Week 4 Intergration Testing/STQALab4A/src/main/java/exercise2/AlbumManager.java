@@ -16,6 +16,7 @@ public class AlbumManager {
         try {
             loadAlbumsFromJSON(filePath);
         } catch (IOException e) {
+            //"Run time exception: " + filePath
             throw new RuntimeException(e);
         }
     }
