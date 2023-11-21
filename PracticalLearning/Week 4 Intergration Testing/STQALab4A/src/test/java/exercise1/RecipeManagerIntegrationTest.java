@@ -51,11 +51,11 @@ class RecipeManagerIntegrationTest {
     }
 
     // Exercise 1.3 - Test that duplicate recipe names retrieve the first occurrence
-    /* Is it better not sometimes to fail test for example , in this the test passes as it should do be if we
+    /* Q - Is it better not sometimes to fail test for example , in this the test passes as it should do be if we
     are to fail the test on purpouse : eg. we change the assertEquals to ingredients to hot sauce , is this not a
     better demonstration that the intergation is working as it should be because surely we can create a test that passes
     but doesnt actually act the way it shoould do , however also vice versa how do we know if a tests fail becuase of
-    the test code we written is syntaxly/not written correctly or the way the they have written there code doesnt act they
+    the test code we written is syntaxly/not written correctly or the way they have written there code doesnt act they
     way it should !
      */
 
