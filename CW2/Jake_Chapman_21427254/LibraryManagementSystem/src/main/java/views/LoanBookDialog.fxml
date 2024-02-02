@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoanBookDialogController" prefHeight="200.0" prefWidth="400.0" spacing="10">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- Book ID Field -->
+    <HBox spacing="10">
+        <Label text="Book ID:"/>
+        <TextField fx:id="bookIdField" editable="false" HBox.hgrow="ALWAYS"/>
+    </HBox>
+
+    <!-- Member ID Field -->
+    <HBox spacing="10">
+        <Label text="Member ID:"/>
+        <TextField fx:id="memberIdField" HBox.hgrow="ALWAYS"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Loan Duration (days):" />
+        <TextField fx:id="loanDurationField" />
+    </HBox>
+    <!-- Confirm and Cancel Buttons -->
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Confirm" fx:id="confirmButton" onAction="#handleConfirm"/>
+        <Button text="Cancel" fx:id="cancelButton" onAction="#handleCancel"/>
+    </HBox>
+</VBox>

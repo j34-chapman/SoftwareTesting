@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1204.0" stylesheets="@libraryStyles.css" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+
+        <!-- Heading Label - Positioned to the left of the logo -->
+        <Label layoutX="143.0" layoutY="53.0" style="-fx-font-size: 24; -fx-font-weight: bold;"
+               text="Library Management System" AnchorPane.rightAnchor="733.0" AnchorPane.topAnchor="53.0"/>
+
+        <VBox layoutY="137.0" prefHeight="663.0" prefWidth="1228.0">
+            <children>
+
+                <TabPane prefHeight="651.0" prefWidth="1228.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                        <!-- Book Manager Tab -->
+                        <Tab text="Book Manager">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="634.0" prefWidth="973.0">
+                                    <children>
+                                        <!-- Placeholder Text -->
+                                        <Text layoutX="50.0" layoutY="50.0" text="Placeholder for Book Manager"/>
+
+                                        <!-- Importing the BookManagerView.FXML file -->
+                                        <fx:include source="BookManagerView.fxml"/>
+                                        <Circle fill="#ffffff00" layoutX="1031.0" layoutY="37.0" radius="14.0"
+                                                stroke="TRANSPARENT" strokeType="INSIDE"/>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+
+                        <!-- Member Manager Tab -->
+                        <Tab text="Member Manager">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="599.0" prefWidth="1228.0">
+                                    <children>
+                                        <!-- Placeholder Text -->
+                                        <Text layoutX="50.0" layoutY="50.0" text="Placeholder for Member Manager"/>
+
+                                        <!-- Importing the MemberManagerView.FXML file -->
+                                        <fx:include source="MemberManagerView.fxml"/>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+
+                        <!-- Member Manager Tab -->
+                        <Tab text="Loan Manager">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="599.0" prefWidth="1228.0">
+                                    <children>
+                                        <!-- Placeholder Text -->
+                                        <Text layoutX="50.0" layoutY="50.0" text="Placeholder for Member Manager"/>
+
+                                        <!-- Importing the MemberManagerView.FXML file -->
+                                        <fx:include source="LoanManagerView.fxml"/>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                    </tabs>
+
+                    <!-- Add Additional Tabs as Needed -->
+
+                </TabPane>
+            </children>
+        </VBox>
+
+        <!-- Logo ImageView - Positioned to the top-right of the AnchorPane -->
+        <ImageView fitHeight="199.0" fitWidth="199.0" layoutY="-33.0" AnchorPane.rightAnchor="1029.0"
+                   AnchorPane.topAnchor="-33.0">
+            <image>
+                <Image url="@lms-logo.png"/>
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

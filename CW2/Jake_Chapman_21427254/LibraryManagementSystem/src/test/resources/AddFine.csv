@@ -1,0 +1,13 @@
+2, 2, 20, late return, 20/09/2023, 20/12/2023
+hello, 20, late return, 20/09/2023, 20/12/2023
+-1, 20, late return, 20/09/2023, 20/12/2023
+1000, 20, late return, 20/09/2023, 20/12/2023
+0, 20, late return, 20/09/2023, 20/12/2023
+1, -2, late return, 20/09/2023, 20/12/2023
+1, 0, late return, 20/09/2023, 20/12/2023
+1, 20, late return, hello, 20/12/2023
+1, 20, late return, 20/09/2090, 20/12/2023
+1, 20, late return, 20/09/2023, hello
+1, 20, late return, 20/09/2023, 20/12/2090
+<null>,<null>,<null>,<null>,<null>,
+2, 20, late return, 20/09/2023, <null>

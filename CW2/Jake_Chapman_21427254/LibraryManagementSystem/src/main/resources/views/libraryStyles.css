@@ -1,0 +1,61 @@
+/* Color Palette */
+.root {
+    /* Setting a default background color */
+    -fx-background-color: #DAD7CD;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #A3B18A;
+    -fx-text-fill: #344E41;
+    -fx-border-color: #588157;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: #588157;
+    -fx-text-fill: #DAD7CD;
+}
+
+/* Tabs */
+.tab-pane {
+    -fx-background-color: #DAD7CD;
+}
+
+.tab {
+    -fx-background-color: #A3B18A;
+    -fx-text-fill: #344E41;
+}
+
+.tab:selected {
+    -fx-background-color: #588157;
+    -fx-text-fill: #DAD7CD;
+}
+
+/* Text and Labels */
+.label, .text {
+    -fx-text-fill: #344E41;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: #DAD7CD;
+}
+
+.table-row-cell {
+    -fx-background-color: #A3B18A;
+    -fx-text-fill: #344E41;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #588157;
+    -fx-text-fill: #DAD7CD;
+}
+
+/* Commenting out the table-column styling to avoid dark backgrounds on columns
+.table-column {
+    -fx-background-color: #3A5A40;
+    -fx-text-fill: #DAD7CD;
+}
+*/

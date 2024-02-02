@@ -1,0 +1,17 @@
+FirstName, LastName, Email, Phone, AddressLine1, AddressLine2, TownOrCity, County, PostCode, dateParsed
+John, Smith, john1@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+123, Smith, john2@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, 123, john3@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, hell.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john1@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john4@gmail.com, hello, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john5@gmail.com, +11111111111111111111111111, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john6@gmail.com, +44 1234 567891, Ca, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john7@gmail.com, +44 1234 567891, Ronnie Rd, Ca, Manchester, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john8@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, 123, Manchester, MXX 1XX, 01/11/2023
+John, Smith, john9@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, 123, MXX 1XX, 01/11/2023
+John, Smith, john10@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, hello, 01/11/2023
+John, Smith, john11@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, hello
+John, Smith, john111@gmail.com, +44 1234 567891, Ronnie Rd, Pickering Rd, Manchester, Manchester, MXX 1XX, 01/11/2040
+<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>
+

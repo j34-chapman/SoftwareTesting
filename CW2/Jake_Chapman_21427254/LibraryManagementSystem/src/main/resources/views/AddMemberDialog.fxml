@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+
+<GridPane xmlns="http://javafx.com/javafx/16"  xmlns:fx="http://javafx.com/fxml/1" hgap="10" vgap="10" fx:controller="controllers.MemberAddDialogController">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10" />
+    </padding>
+    <!-- Member fields -->
+    <Label text="First Name:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="firstNameField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Label text="Last Name:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <!-- ... Add other member fields in a similar manner ... -->
+    <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Label text="Phone:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <TextField fx:id="phoneField" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <Label text="Address Line 1:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <TextField fx:id="addressLine1Field" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    <Label text="Address Line 2:" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+    <TextField fx:id="addressLine2Field" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    <Label text="Town/City:" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+    <TextField fx:id="townOrCityField" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <Label text="County:" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+    <TextField fx:id="countyField" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+    <Label text="Post Code:" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+    <TextField fx:id="postCodeField" GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+    <Label text="Date Registered:" GridPane.columnIndex="0" GridPane.rowIndex="10"/>
+    <DatePicker fx:id="dateRegisteredPicker" GridPane.columnIndex="1" GridPane.rowIndex="10"/>
+
+    <!-- Buttons for the dialog -->
+    <HBox spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="11">
+        <Button text="Save" onAction="#handleSave"/>
+        <Button text="Cancel" onAction="#handleCancel"/>
+    </HBox>
+</GridPane>
